@@ -22,9 +22,9 @@ body {
 
 .content {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
-  transform: translateY(-90%);
+  transform: translateY(-95%);
   transform: translateX(-50%);
 }
 
@@ -52,10 +52,15 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
     display: table;
     margin: 0 auto;
+    width: 280px;
+    margin-top: 10px;
+    background-color: #EA0B8C;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
