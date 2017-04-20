@@ -45,7 +45,7 @@ body {
     margin: 0 auto;
 }
 
-.button {
+/*.button {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -63,4 +63,27 @@ body {
     background-color: #EA0B8C;
     letter-spacing: 1px;
     font-weight: 500;
+}*/
+
+.btn-pink {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: table;
+    margin: 0 auto;
+    width: 280px;
+    margin-top: 10px;
+    background-color: #EA0B8C;
+    letter-spacing: 1px;
+    font-weight: 600;
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #EA0B8C;
+    border-color: #EA0B8C
 }
