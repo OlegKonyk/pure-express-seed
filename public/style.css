@@ -1,5 +1,5 @@
 body {
-    background-color: #333D47;
+    /*background-color: #333D47;*/
     color: white;
     font-family: "Gotham SSm A", "Gotham SSm B", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1rem;
@@ -14,7 +14,7 @@ body {
     .row {display:table-row;}
     .cell {display:table-cell;}
     
-    .middle {background-color: #333D47; height:100%;}
+    /*.middle {background-color: #333D47; height:100%;}*/
     .top {background-color:red;}
     .bottom {background-color:blue;}
     .container {padding:10px;position: relative;}
@@ -87,3 +87,11 @@ body {
     background-color: #EA0B8C;
     border-color: #EA0B8C
 }
+
+body { 
+    background: url('./lyft.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
